@@ -16,18 +16,17 @@
 
 
 
-
 # s1
-# def reserve_string(s):
-#     left = 0
-#     right = len(s) - 1
+def reserve_string(s):
+    left = 0
+    right = len(s) - 1
 
-#     while left < right:
-#         s[left], s[right] = s[right], s[left]
-#         left += 1
-#         right -= 1
+    while left < right:
+        s[left], s[right] = s[right], s[left]
+        left += 1
+        right -= 1
 
-# s1 = ["h","e","l","l","o"]
-# reserve_string(s1)
-# print(s1)
+s1 = ["h","e","l","l","o"]
+reserve_string(s1)
+print(s1)
 
